@@ -1,35 +1,8 @@
-#preloader {
-    background : #2a54f5;
-    bottom     : 0;
-    left       : 0;
-    position   : fixed;
-    right      : 0;
-    top        : 0;
-    z-index    : 9999;
+#preloader{
+    background : rgb(228, 245, 255) url(/preloaderGif.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
     }
 
-#status,
-.status-mes {
-    background-image    : url(../img/puff.svg);
-    background-position : center;
-    background-repeat   : no-repeat;
-    height              : 200px;
-    left                : 50%;
-    margin              : -100px 0 0 -100px;
-    position            : absolute;
-    top                 : 50%;
-    width               : 200px;
-    }
-
-.status-mes {
-    background : none;
-    left       : 0;
-    margin     : 0;
-    text-align : center;
-    top        : 65%;
-    }
-
-.tech-icons {
-    width: 50px;
-    height: 50px;
-    }

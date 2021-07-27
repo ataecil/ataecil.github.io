@@ -16,11 +16,7 @@
 
     <body>
 
-        <div id="preloader">
-            <div id="status">
-                <div class="status-mes"></div>
-            </div>
-        </div>
+        <div id="preloader"></div>
 
 
         <header>
@@ -42,6 +38,12 @@
             </ul>
         </nav>
 
-        <script src="scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#preloader").fadeOut(2000);
+});
+</script>
+            
     </body>
 </html>
