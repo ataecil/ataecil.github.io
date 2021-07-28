@@ -5,45 +5,66 @@
         <title>Ata Ertuğ Çil</title>
 
         <!--favicon -->
-        <link href="logo.png" rel=icon>
+        <link href="media/logo.png" rel=icon>
 
         <!--web-Fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
 
         <!--Style CSS-->
         <link href="style.css" rel="stylesheet">
+
+        <!-- font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     </head>
 
-    <body>
+    <body id="page-top" data-spy="scroll" data-target=".navbar">
 
+        <!--Page Preloader-->
         <div id="preloader"></div>
 
 
-        <header>
-            <h1>Ata Ertuğ Çil</h1>
-        </header>
+        <div class="columns">
+            <div class="left-column blocks">
+                <header class="header">
+                    <div class="content">
+                        <h1>Hi, I'm Ata Ertuğ Çil</h1>
+            
+                        <p class="lead">Computer Science Student</p>
+                        <ul class="social-logo">
+                            <li><a href="https://www.linkedin.com/in/ata-ertug-cil/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a style="width: 50px; height: 50px; padding: 10px" href="media/resume.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/ataecil"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-img"></div>
+                </header>
+                <!-- .header-->
+            </div>
 
-        <nav>
-            <ul>
-              <li><a href="#">Summary</a></li>
-              <li><a href="#">Interests</a></li>
-              <li><a href="#">Technologies</a></li>
-              <li><a href="#">Work Experience</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Volunteer Experience</a></li>
-              <li><a href="#">Awards</a></li>
-              <li><a href="#">Conferences</a></li>
-              <li><a href="#">Hobbies</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+            <div class="right-column blocks">
+                <nav>
+                    <ul>
+                      <li><a href="#">Summary</a></li>
+                      <li><a href="#">Interests</a></li>
+                      <li><a href="#">Technologies</a></li>
+                      <li><a href="#">Work Experience</a></li>
+                      <li><a href="#">Education</a></li>
+                      <li><a href="#">Volunteer Experience</a></li>
+                      <li><a href="#">Awards</a></li>
+                      <li><a href="#">Conferences</a></li>
+                      <li><a href="#">Hobbies</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    
+
+        
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("#preloader").fadeOut(2000);
-});
-</script>
+        <script src="js/preloader.js"></script>
             
     </body>
 </html>
